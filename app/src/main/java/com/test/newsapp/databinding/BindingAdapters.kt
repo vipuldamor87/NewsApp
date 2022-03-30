@@ -11,10 +11,5 @@ fun setImageResource(view: ImageView, imageUrl: String?) {
 
         Glide.with(view).load(imageUrl).into(view)
 
-//        Picasso.get()
-//            .load(imageUrl)
-//            .placeholder(R.drawable.ic_launcher_background)
-//            .error(R.drawable.ic_launcher_background)
-//            .into(view)
     }
 }
